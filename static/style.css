@@ -1,0 +1,47 @@
+body {
+background: url(''' + img_url + ''') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.container, .container-box {
+text-align: center;
+margin: auto;
+background: white;
+padding: 1px;
+padding-bottom: 20px;
+margin-top: 25px;
+display: block;
+}
+.container-box {
+width: 230px;
+}
+form {
+    display: inline-block;
+    left-margin: auto;
+    right-margin: auto;
+}
+table {
+    margin: auto;
+    margin-top: 30px;
+    color: #333;
+    font-family: monospace;
+    width: 640px;
+    border-collapse:
+    collapse; border-spacing: 0;
+}
+td, th {
+    border: 1px solid #CCC;
+    height: 30px;
+}
+th {
+    background: #F3F3F3;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+}
+td {
+    background: #FAFAFA;
+    padding: 5px;
+}
